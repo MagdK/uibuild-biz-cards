@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* Reset over */
+
+body {
+    background-color: #ffeedf;
+}
+
+.card h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    color: #33793f;
+}
+
+.card h2 span {
+    display: block;
+}
+
+.card p span {
+    display: block;
+}
+
+.card h6 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.card p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    color: #999;
+    padding: 15px 0;
+}
+
+.card p .city,
+.car p .state {
+    padding: 15px 0;
+}
+
+section .card {
+    flex: flex;
+    content: stretch;
+    position: relative;
+    width: 290px;
+    height: 416px;
+    padding: 27px;
+    background-color: #fff;
+}
+
+/* Above 991px */
+@media screen and (min-width: 992px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap: 50px 62px;
+        width: 990px;
+        height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+    }   
+}
+
+/* Below 992px */
+@media screen and (max-width: 991px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        gap: 50px 62px;
+        margin: 70px auto;
+        width: 100%;
+    }
+}
