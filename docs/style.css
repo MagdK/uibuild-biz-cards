@@ -74,7 +74,6 @@ body {
 }
 
 section .card {
-    flex: 1;
     width: 290px;
     height: 416px;
     padding: 27px;
